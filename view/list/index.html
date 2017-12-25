@@ -1,0 +1,54 @@
+<div class="index-wrap">
+	<div class="header">上传单证信息</div>
+	<div class="upload-box">
+		<ul class="list">
+			<li class="item">
+				<h2 class="title">事故现场照片</h2>
+				<div class="body">
+					<div class="left">
+						<img :src="fileUrlList[0]"/>
+					</div>
+					<div class="right">
+						<input id="file0" type="file"  accept="image/png,image/jpg" @change="fileChange($event, '0')"/>
+					</div>
+				</div>
+			</li>
+			<li class="item">
+				<h2 class="title">责任方行驶证</h2>
+				<div class="body">
+					<div class="left">
+						<img :src="fileUrlList[1]"/>
+					</div>
+					<div class="right">
+						<input id="file1" type="file"  accept="image/png,image/jpg" @change="fileChange($event, '1')"/>
+					</div>
+				</div>
+			</li>
+			<li class="item">
+				<h2 class="title">责任方车牌</h2>
+				<div class="body">
+					<div class="left">
+						<img :src="fileUrlList[2]"/>
+					</div>
+					<div class="right">
+						<input id="file2" type="file"  accept="image/png,image/jpg" @change="fileChange($event, '2')"/>
+					</div>
+				</div>
+			</li>
+			<li class="item">
+				<h2 class="title">责任方车辆照片</h2>
+				<div class="body">
+					<div class="left">
+						<img :src="fileUrlList[3]"/>
+					</div>
+					<div class="right">
+						<input id="file3" type="file"  accept="image/png,image/jpg" @change="fileChange($event, '3')"/>
+					</div>
+				</div>
+			</li>
+		</ul>
+	</div>
+	<div class="btn-box">
+		<div class="btn" @click="submitAction">确定</div>
+	</div>
+</div>

@@ -1,0 +1,18 @@
+/* Created by Chenxi 23/6/2017 */
+.index-wrap .header { height: 1.3333333333rem; line-height: 1.3333333333rem; background: #e51c23; text-align: center; font-size: 0.3733333333rem; color: #ffffff; }
+
+.index-wrap .upload-box { padding: 0.4rem 1.0666666667rem 1.1733333333rem 1.0666666667rem; background: #ffffff; }
+
+.index-wrap .upload-box .list .item .title { box-sizing: border-box; height: 1.0666666667rem; padding-top: 0.48rem; text-align: left; font-size: 0.3733333333rem; color: #000000; }
+
+.index-wrap .upload-box .list .item .body { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -webkit-justify-content: space-between; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; }
+
+.index-wrap .upload-box .list .item .body .left img { display: block; width: 3.7333333333rem; height: 2.1333333333rem; }
+
+.index-wrap .upload-box .list .item .body .right { box-sizing: border-box; width: 3.7333333333rem; height: 2.1333333333rem; border: 1px solid #000000; background: transparent url(../../images/list/bg-02.png) center center no-repeat; background-size: 100%; }
+
+.index-wrap .upload-box .list .item .body .right input { display: block; width: 3.7333333333rem; height: 2.1333333333rem; opacity: 0; }
+
+.index-wrap .btn-box { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -webkit-justify-content: space-between; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; position: fixed; left: 0; bottom: 0; width: 100%; height: 1.1733333333rem; }
+
+.index-wrap .btn-box .btn { margin: 0 auto; width: 2.1333333333rem; height: 0.8rem; line-height: 0.8rem; border-radius: 0.1066666667rem; background: #259b42; text-align: center; font-size: 0.3733333333rem; color: #ffffff; }
